@@ -1,0 +1,28 @@
+/* -------------------------------- media query1 -------------------------------*/
+
+@media (min-width: 100px) and (max-width: 768px)
+{   
+    /*--- navbar ---*/
+
+    .navbar{
+        background-color: rgb(29, 228, 162) !important;
+        opacity: 0.8 !important;
+    }
+    .navbar-middle{
+        display: none;
+    }
+    .user a{
+        display: none !important;
+    }
+    /*--- navbar ---*/
+}
+/* -------------------------------- media query2 ------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .navbar-middle a{
+        font-size: 10px !important;
+        padding: 2px !important;
+
+    }
+}
