@@ -6,7 +6,7 @@
 
     .navbar{
         background-color: rgb(29, 228, 162) !important;
-        opacity: 0.8 !important;
+        opacity: 0.75 !important;
     }
     .navbar-middle{
         display: none;
@@ -14,15 +14,121 @@
     .user a{
         display: none !important;
     }
+    .offcanvas{
+        width: 60% !important;
+    }
     /*--- navbar ---*/
+
+    /* --- hero section --- */
+
+    .hero-section{
+        flex-direction: column-reverse !important;
+        margin-top: 20px !important;
+    }
+    .hero-img img{
+        width: 300px !important;
+        height: 500px !important;
+        margin-top: -100px !important;
+    }
+    .hero-text{
+        text-align: center !important;
+        padding: 20px 20px !important;
+    }
+    .hero-content h1{
+        font-size: 30px !important;
+        padding-inline: 20px !important;
+    }
+    .hero-content p{
+        font-size: 16px !important;
+        padding-inline: 20px !important;
+    }
+    .hero-btn{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .hero-form{
+        width: 90% !important;
+        margin: auto !important;
+        margin-top: 20px !important;
+        padding-inline: 5px !important;
+    }
+    .hero-form input::placeholder{
+        font-size: 12px !important;
+    }
+    .hero-form button{
+        width: 40% !important;
+        padding: 0 5px !important;
+    }
+    /* --- hero section --- */
 }
+
 /* -------------------------------- media query2 ------------------------------- */
 
-@media (min-width: 768px) and (max-width: 991px)
+@media (min-width: 768px) and (max-width: 992px)
 {
+    /* --- navbar --- */
+
     .navbar-middle a{
         font-size: 10px !important;
         padding: 2px !important;
-
     }
+    /* --- navbar --- */
+
+    /* --- hero section --- */
+
+    .hero-section{
+        flex-direction: column-reverse !important;
+        margin-top: 50px !important;
+    }
+    .hero-img img{
+        margin-top: -150px !important;
+    }
+    .hero-text{
+        text-align: center !important;
+        padding: 20px 20px !important;
+    }
+    .hero-btn{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .hero-form{
+        width: 100% !important;
+        margin: auto !important;
+        padding-inline: 5px !important;
+    }
+    /* --- hero section --- */
+}
+
+/* -------------------------------- media query3 ------------------------------- */
+
+@media (min-width: 992px) and (max-width: 1380px)
+{
+    /* --- hero section --- */
+
+    .hero-section{
+        margin-top: -90px !important;
+    }
+    .hero-img img{
+        width: 500px !important;
+        height: 800px !important;
+    }
+    .hero-text h1{
+        font-size: 50px !important;
+    }
+    .hero-text p{
+        font-size: 20px !important;
+    }
+    .hero-form{
+        width: 90% !important;
+    }
+
+    /* --- hero section --- */
 }

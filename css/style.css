@@ -1,5 +1,5 @@
-/* navbar style */
 
+/*----- navbar style start ------*/
 
 .navbar-middle a:hover{
     color: rgb(239, 69, 69) !important;
@@ -14,7 +14,7 @@
     color: rgb(239, 69, 69);
     text-decoration: underline;
 }
-.user-btn:hover{
+.user-text:hover{
     text-decoration: underline !important;
 }
 .search-form{
@@ -24,7 +24,6 @@
     margin: auto;
     margin-top: 20px;
 }
-
 .search-form input{
     width: 100%;
     height: 40px;
@@ -34,7 +33,6 @@
     font-size: 16px;
     color: #333;
 }
-
 .search-form button{
     position: absolute;
     top: 50%;
@@ -46,3 +44,120 @@
     font-size: 16px;
     color: #666;
 }
+
+/*----- navbar style end ------*/
+
+/*----- hero-section style start ------ */
+
+.hero-img img{
+    width: 700px;
+    height: 900px;
+    animation: moving 3s ease-in-out infinite;
+}
+.hero-btn{
+    box-sizing: content-box;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 18px 20px 18px 28px;
+    position: relative;
+    z-index: 1;
+}
+.hero-btn::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    display: block;
+    animation: pulse-border 1500ms ease-out infinite;
+    border-radius: 50%;
+    z-index: 2;
+}
+.hero-btn::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    border-radius: 50%;
+    z-index: 3;
+}
+.hero-btn i{
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    font-size: 36px;
+    top: 25px;
+    left: 37px;
+}
+.hero-form{
+    position: relative;
+    width: 100%;
+    width:500px;
+    margin-top: 20px;
+}
+.hero-form input{
+    width: 100%;
+    height: 60px;
+    padding: 0 5px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+.hero-form button{
+    position: absolute;
+    top: 69%;
+    right: 10px;
+    height: 55px;
+    transform: translateY(-100%);
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hero-form button:hover{
+    background-color: rgb(239, 69, 69);
+}
+blockquote cite a:hover{
+    color: rgb(239, 69, 69) !important;
+    text-decoration: underline !important;
+}
+
+/*----- hero-section style end ------ */
+
+/* ------------------------------------animation----------------------------------- */
+
+/*--- hero section ---*/
+@keyframes pulse-border 
+{
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+      opacity: 0.5;
+    }
+}
+@keyframes moving
+{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-1%);
+    }
+}
+/* --- hero section --- */
