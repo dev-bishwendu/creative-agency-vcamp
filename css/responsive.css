@@ -8,14 +8,15 @@
         background-color: rgb(29, 228, 162) !important;
         opacity: 0.75 !important;
     }
+    .offcanvas{
+        width: 80% !important;
+        opacity: 2 !important;
+    }
     .navbar-middle{
         display: none;
     }
     .user a{
         display: none !important;
-    }
-    .offcanvas{
-        width: 60% !important;
     }
     /*--- navbar ---*/
 
