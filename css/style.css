@@ -68,8 +68,8 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color: gray;
     display: block;
     animation: pulse-border 1500ms ease-out infinite;
@@ -81,9 +81,10 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 70px;
-    height: 70px;
-    background-color: rgb(0, 0, 0);
+    animation: pulse-border 1450ms ease-out infinite;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(38, 25, 25);
     display: block;
     border-radius: 50%;
 }
@@ -93,7 +94,7 @@
     color: #fff;
     font-size: 36px;
     top: 25px;
-    left: 37px;
+    left: 37px;    
 }
 .hero-form{
     position: relative;
@@ -133,6 +134,20 @@ blockquote cite a:hover{
 
 /*----- hero-section style end ------ */
 
+/*--- service section style start ---*/
+
+.service-text a:hover{
+    color: rgb(239, 69, 69) !important;
+}
+.service-item i:hover{
+    animation: icon-animation .3s ease-in-out infinite;
+}
+.service-item a:hover{
+    text-decoration: underline !important;
+    cursor: n-resize;
+}
+/*--- service section style end ---*/
+
 /* ------------------------------------animation----------------------------------- */
 
 /*--- hero section ---*/
@@ -158,3 +173,18 @@ blockquote cite a:hover{
     }
 }
 /* --- hero section --- */
+
+/*--- service section ---*/
+
+@keyframes icon-animation
+
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/*--- service section ---*/
