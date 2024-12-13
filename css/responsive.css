@@ -6,11 +6,9 @@
 
     .navbar{
         background-color: rgb(29, 228, 162) !important;
-        opacity: 0.75 !important;
     }
     .offcanvas{
         width: 80% !important;
-        opacity: 2 !important;
     }
     .navbar-middle{
         display: none;
@@ -29,7 +27,7 @@
     .hero-img img{
         width: 300px !important;
         height: 500px !important;
-        margin-top: -100px !important;
+        margin-top: -180px !important;
     }
     .hero-text{
         text-align: center !important;
@@ -48,8 +46,8 @@
         justify-content: center !important;
         align-items: center !important;
         margin: auto !important;
-        margin-top: 50px !important;
-        margin-bottom: 50px !important;
+        margin-top: 10px !important;
+        margin-bottom: 40px !important;
     }
     .hero-form{
         width: 90% !important;
