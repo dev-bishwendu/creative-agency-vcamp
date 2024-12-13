@@ -139,6 +139,23 @@
         padding-inline: 5px !important;
     }
     /* --- hero section --- */
+
+    /* --- service section --- */
+
+    .service-text h2{
+        font-size: 30px !important;
+    }
+    .service-text a{
+        font-size: 15px !important;
+    }
+    .service-item h4{
+        font-size: 20px !important;
+    }
+    .service-item a{
+        font-size: 12px !important;
+    }
+
+    /* --- service section --- */
 }
 
 /* -------------------------------- media query3 ------------------------------- */
@@ -165,4 +182,18 @@
     }
 
     /* --- hero section --- */
+
+    /* --- service section --- */
+
+    .service-text a{
+        font-size: 15px !important;
+    }
+    .service-item h4{
+        font-size: 20px !important;
+    }
+    .service-item a{
+        font-size: 12px !important;
+    }
+
+    /* --- service section --- */    
 }
