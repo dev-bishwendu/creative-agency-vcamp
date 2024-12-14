@@ -2,6 +2,15 @@
 
 @media (min-width: 100px) and (max-width: 768px)
 {   
+    /* --- global --- */
+
+    .margin-top{
+        margin-top: 100px !important;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+
     /*--- navbar ---*/
 
     .navbar{
@@ -66,14 +75,11 @@
 
     /* --- service section --- */
 
-    .mt-5{
-        margin-top: -30px !important;
+    .service-margin-top{
+        margin-top: -50px !important;
     }
     .service-text{
         margin-inline: 20px !important;
-    }
-    .service-text h2{
-        font-size: 20px !important;
     }
     .service-text a{
         font-size: 12px !important;
@@ -98,18 +104,33 @@
     }
 
     /* --- service section --- */
+
+    /* --- work section ---- */
+
+    .work-text a{
+        font-size: 12px !important;
+        padding: 5px 10px !important;
+    }
 }
 
 /* -------------------------------- media query2 ------------------------------- */
 
 @media (min-width: 768px) and (max-width: 992px)
 {
+    
+    /* --- global --- */
+
+    h2{
+        font-size: 30px !important;
+    }
+
     /* --- navbar --- */
 
     .navbar-middle a{
         font-size: 10px !important;
         padding: 2px !important;
     }
+
     /* --- navbar --- */
 
     /* --- hero section --- */
@@ -142,9 +163,6 @@
 
     /* --- service section --- */
 
-    .service-text h2{
-        font-size: 30px !important;
-    }
     .service-text a{
         font-size: 15px !important;
     }
@@ -156,6 +174,13 @@
     }
 
     /* --- service section --- */
+
+    /* ----- work section ----- */
+
+    .work-text a{
+        font-size: 15px !important;
+        padding: 8px 15px !important;
+    }
 }
 
 /* -------------------------------- media query3 ------------------------------- */
