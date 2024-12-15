@@ -98,6 +98,9 @@
 
 /*----- hero-section style start ------ */
 
+.hero-section{
+    margin-bottom: -50px;
+}
 .hero-img img{
     width: 700px;
     height: 900px;
@@ -107,7 +110,7 @@
     position: relative;
     width: 100%;
     width:500px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .hero-form input{
     width: 100%;
@@ -120,7 +123,7 @@
 }
 .hero-form button{
     position: absolute;
-    top: 69%;
+    top: 74.5%;
     right: 10px;
     height: 55px;
     transform: translateY(-100%);
@@ -221,13 +224,14 @@ blockquote cite a:hover{
 /* --- project section style start ----- */
 
 .project-section{
-    margin-top: -150px;
+    margin-top: -110px;
 }
 .project-btn{
     background-image: url(../asset/thanlbline.jpg);
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: auto;
+    background-position: center;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     justify-content: center;

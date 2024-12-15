@@ -127,9 +127,11 @@
 
     /* ---- project section start ---*/
 
-    .proect-btn{
-        width: 100% !important;
+    .project-btn{
         min-height: 50vh !important;
+    }
+    .project-data{
+        display: none !important;
     }
 
     /* ---- project section end --- */
@@ -216,6 +218,15 @@
     }
 
     /* ---- client section ---- */
+
+    /* ---- project section ---- */
+
+    .project-btn{
+        min-height: 50vh !important;
+    }
+    .project-data{
+        display: none !important;
+    }   
 }
 
 /* -------------------------------- media query3 ------------------------------- */
@@ -255,5 +266,12 @@
         font-size: 12px !important;
     }
 
-    /* --- service section --- */    
+    /* --- service section --- */
+    
+    /* ----- project section ----- */
+
+    .project-data{
+        display: none !important;
+    }
+    /* ----- project section ----- */
 }
