@@ -5,7 +5,7 @@
     /* --- global --- */
 
     .margin-top{
-        margin-top: 100px !important;
+        margin-top: 80px !important;
     }
     h2{
         font-size: 20px !important;
@@ -111,6 +111,28 @@
         font-size: 12px !important;
         padding: 5px 10px !important;
     }
+
+    /* --- work section ---- */
+
+    /*---- client section ---*/
+
+    .client-text1{
+        display: none !important;
+    }
+    .accordion{
+        width: 100% !important;
+    }
+
+    /*---- client section ---*/
+
+    /* ---- project section start ---*/
+
+    .proect-btn{
+        width: 100% !important;
+        min-height: 50vh !important;
+    }
+
+    /* ---- project section end --- */
 }
 
 /* -------------------------------- media query2 ------------------------------- */
@@ -181,6 +203,19 @@
         font-size: 15px !important;
         padding: 8px 15px !important;
     }
+
+    /* ----- work section ----- */
+
+    /* ---- client section ---- */
+
+    .client-text1{
+        display: none !important;
+    }
+    .accordion{
+        width: 100% !important;
+    }
+
+    /* ---- client section ---- */
 }
 
 /* -------------------------------- media query3 ------------------------------- */

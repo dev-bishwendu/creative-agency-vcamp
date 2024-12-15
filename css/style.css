@@ -3,6 +3,51 @@
 .margin-top{
     margin-top: 200px;
 }
+.hero-btn{
+    box-sizing: content-box;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 18px 20px 18px 28px;
+    position: relative;
+}
+.hero-btn::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: block;
+    animation: pulse-border 1500ms ease-out infinite;
+    border-radius: 50%;
+}
+.hero-btn::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation: pulse-border 1450ms ease-out infinite;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(9, 8, 8);
+    display: block;
+    border-radius: 50%;
+}
+.hero-btn i{
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    font-size: 36px;
+    top: 25px;
+    left: 37px;    
+}
+
+/* ----- global style end ----- */
+
 /*----- navbar style start ------*/
 
 .navbar-middle a:hover{
@@ -57,48 +102,6 @@
     width: 700px;
     height: 900px;
     animation: moving 3s ease-in-out infinite;
-}
-.hero-btn{
-    box-sizing: content-box;
-    display: block;
-    width: 50px;
-    height: 50px;
-    padding: 18px 20px 18px 28px;
-    position: relative;
-}
-.hero-btn::before{
-    position: absolute;
-    content: "";
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 60px;
-    height: 60px;
-    background-color: gray;
-    display: block;
-    animation: pulse-border 1500ms ease-out infinite;
-    border-radius: 50%;
-}
-.hero-btn::after{
-    position: absolute;
-    content: "";
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    animation: pulse-border 1450ms ease-out infinite;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(9, 8, 8);
-    display: block;
-    border-radius: 50%;
-}
-.hero-btn i{
-    position: absolute;
-    z-index: 4;
-    color: #fff;
-    font-size: 36px;
-    top: 25px;
-    left: 37px;    
 }
 .hero-form{
     position: relative;
@@ -186,9 +189,59 @@ blockquote cite a:hover{
 
 /* --- client section style start ----- */
 
-.padding-text{
-    padding-right: 200px !important;
+.client{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
+.accordion{
+    --bs-accordion-active-bg: #fff;
+    --bs-accordion-active-color: #000;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+    box-shadow: 3px 3px 4px 2px skyblue;
+    border-radius: 9px;
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+/* --- accordion button style ---*/
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E");
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8'/%3E%3C/svg%3E");    
+}
+/* --- accordion button style --- */
+
+/* --- client section style end ----- */
+
+/* --- project section style start ----- */
+
+.project-section{
+    margin-top: -150px;
+}
+.project-btn{
+    background-image: url(../asset/thanlbline.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50%);
+}
+.project-data{
+    right: 150px;
+    transform: translateY(180%);
+}
+.data{
+    padding: 10px 60px;
+}
+/* --- project section style end ----- */
 
 /* ------------------------------------animation----------------------------------- */
 
