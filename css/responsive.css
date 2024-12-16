@@ -137,8 +137,59 @@
         flex-direction: column !important;
         gap: 20px !important;
     }
+    .feedback-text h6{
+        line-height: 1.5 !important;
+    }
 
     /* ---- feedback section end ---*/
+
+    /* --- blog section start ----- */
+
+    .blog-head a{
+        font-size: 12px !important;
+        padding: 8px 10px !important;
+    }
+    .flex{
+        gap: 2px !important;
+    }
+    
+    /* --- blog section end ------ */
+
+    /*----- mind section start ----*/
+
+
+    .mind-bg-img button{
+        font-size: 12px !important;
+        padding: 8px 10px !important;
+    }
+    .padding{
+        padding: 80px 0px !important;
+    }
+    /*----- mind section end -----*/
+
+    /* ------ terms and condition ------- */
+
+    .terms a{
+        display: none !important;
+    }
+    .terms{
+        flex-direction: column !important;
+        gap: 60px !important;
+    }
+    /* ------ terms and condition ------- */
+
+    /* ------ footer section ------- */
+
+    .footer{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px !important;
+        margin: auto !important;
+        margin-inline: 20px !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    /* ------ footer section ------- */
 }
 
 /* -------------------------------- media query2 ------------------------------- */
@@ -226,7 +277,31 @@
     /* ---- project section ---- */
 
 
-    /* ---- project section ---- */              
+    /* ---- project section ---- */
+    
+    /* ---- terms section ---- */
+
+    .terms a{
+        display: none !important;
+    }
+    .terms{
+        gap: 60px !important;
+    }
+
+    /* ---- terms section ---- */
+
+    /* ------ footer section ------- */
+
+    .footer{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px !important;
+        margin: auto !important;
+        margin-inline: 20px !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+    /* ------ footer section ------- */
 }
 
 /* -------------------------------- media query3 ------------------------------- */
