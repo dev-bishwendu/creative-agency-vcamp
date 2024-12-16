@@ -1,6 +1,6 @@
 /* -------------------------------- media query1 -------------------------------*/
 
-@media (min-width: 100px) and (max-width: 768px)
+@media (min-width: 100px) and (max-width: 767px)
 {   
     /* --- global --- */
 
@@ -127,19 +127,23 @@
 
     /* ---- project section start ---*/
 
-    .project-btn{
-        min-height: 50vh !important;
-    }
-    .project-data{
-        display: none !important;
-    }
+    
 
     /* ---- project section end --- */
+
+    /* ---- feedback section start ---*/
+
+    .flex{
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    /* ---- feedback section end ---*/
 }
 
 /* -------------------------------- media query2 ------------------------------- */
 
-@media (min-width: 768px) and (max-width: 992px)
+@media (min-width: 768px) and (max-width: 991px)
 {
     
     /* --- global --- */
@@ -221,12 +225,8 @@
 
     /* ---- project section ---- */
 
-    .project-btn{
-        min-height: 50vh !important;
-    }
-    .project-data{
-        display: none !important;
-    }   
+
+    /* ---- project section ---- */              
 }
 
 /* -------------------------------- media query3 ------------------------------- */
@@ -270,8 +270,28 @@
     
     /* ----- project section ----- */
 
-    .project-data{
-        display: none !important;
-    }
+    
     /* ----- project section ----- */
+
+    /* ---- feedback section ---- */
+
+    .feedback-text h6{
+        line-height: 1.5 !important;
+    }
+    /* ---- feedback section ---- */
 }
+
+/* -------------------------------- media query4 ------------------------------- */
+@media (min-width: 768px) and (max-width: 1199px){
+    
+    /* ---- feedback section ---- */
+    
+    .flex{
+        flex-direction: column !important;
+    }
+        
+    /* ---- feedback section ---- */
+    
+}
+
+    

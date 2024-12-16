@@ -223,29 +223,24 @@ blockquote cite a:hover{
 
 /* --- project section style start ----- */
 
-.project-section{
-    margin-top: -110px;
-}
-.project-btn{
-    background-image: url(../asset/thanlbline.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(50%);
-}
-.project-data{
-    right: 150px;
-    transform: translateY(180%);
-}
-.data{
-    padding: 10px 60px;
-}
+
 /* --- project section style end ----- */
+
+/* --- feedback section style start ----- */
+
+.round-black{
+    width: 20px !important;
+    height: 20px !important;
+    background-color: black !important;
+    border-radius: 50% !important;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+/* --- feedback section style end ----- */
 
 /* ------------------------------------animation----------------------------------- */
 
