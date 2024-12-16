@@ -242,6 +242,25 @@ blockquote cite a:hover{
 }
 /* --- feedback section style end ----- */
 
+/*----- blog section style start ------*/
+
+.blog-section{
+    background-color: rgb(225, 234, 237);
+}
+.card{
+    height: 25rem;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card-body a:hover{
+    text-decoration: underline !important;
+}
+.blog-head a:hover{
+    background-color: #000 !important;
+}
+/*----- blog section style end ------*/
+
 /* ------------------------------------animation----------------------------------- */
 
 /*--- hero section ---*/
