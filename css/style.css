@@ -217,13 +217,28 @@ blockquote cite a:hover{
 .accordion-button:not(.collapsed)::after{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8'/%3E%3C/svg%3E");    
 }
-/* --- accordion button style --- */
+/*  accordion button style */
 
 /* --- client section style end ----- */
 
 /* --- project section style start ----- */
 
-
+.project-section{
+    background-image: url(../asset/thanlbline.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.project-btn{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.project-content{
+    bottom: 0px;
+    right: 100px;
+}
 /* --- project section style end ----- */
 
 /* --- feedback section style start ----- */
