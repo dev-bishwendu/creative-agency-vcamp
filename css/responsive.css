@@ -176,18 +176,36 @@
         flex-direction: column !important;
         gap: 60px !important;
     }
+    .sign-up-form{
+        padding-bottom: 20px !important;
+    }
+    .sign-up-form input{
+        height: 30px !important;
+    }
+    .search-field{
+        font-size: 10px !important;
+    }
+    .search-button{
+        font-size: 10px !important;
+        padding: 0px 25px !important;
+        height: 50% !important;
+        margin: 2px 0px !important;
+    }
     /* ------ terms and condition ------- */
 
     /* ------ footer section ------- */
 
     .footer{
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 20px !important;
-        margin: auto !important;
-        margin-inline: 20px !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
         align-items: center !important;
-        justify-content: center !important;
+        gap: 30px !important;
+    }
+    .policy a{
+        font-size: 10px !important;
+    }
+    .copyright a{
+        font-size: 10px !important;
     }
     /* ------ footer section ------- */
 }
@@ -293,13 +311,10 @@
     /* ------ footer section ------- */
 
     .footer{
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 20px !important;
-        margin: auto !important;
-        margin-inline: 20px !important;
-        align-items: center !important;
+        flex-direction: column !important;
         justify-content: space-between !important;
+        align-items: center !important;
+        gap: 30px !important;
     }
     /* ------ footer section ------- */
 }
