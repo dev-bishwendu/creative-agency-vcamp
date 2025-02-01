@@ -4,5 +4,5 @@ This is sample a project
   <li>html5</li>
   <li>CSS3</li>
   <li>Bootstrap5</li>
-  <li>& little bit javacsript.</li>
+  <li>& little bit JavaScript.</li>
 </ul>
